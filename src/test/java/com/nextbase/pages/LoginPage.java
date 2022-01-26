@@ -22,9 +22,23 @@ public class LoginPage extends BasePage {
     @FindBy(className = "login-btn")
     public WebElement loginBtn;
 
+    @FindBy(xpath = "//div[.='Incorrect login or password']")
+    public WebElement incorrectLoginText;
+
+    @FindBy(id = "USER_REMEMBER")
+    public WebElement rememberMeBtn;
+
+    @FindBy(className = "login-link-forgot-pass")
+    public WebElement forgotPWBtn;
 
     @Override
     public void getTitle() {
         Assert.assertTrue("FAIL: Title is not matching expected.", Driver.getDriver().getTitle().contains("Portal"));
+    }
+
+    public void onForgotPWPage(){
+        String expectedForgotPWTitle = "Get Password";
+        String actualForgotPWTitle = Driver.getDriver().getTitle();
+        Assert.assertEquals("FAIL: not on get password page", expectedForgotPWTitle, actualForgotPWTitle);
     }
 }
