@@ -14,6 +14,8 @@ public abstract class BasePage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    public abstract void getTitle();
+    public void getTitle(){
+
+    };
 
 }
