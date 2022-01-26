@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/nextbase/step_definitions",
         dryRun = false    //false=> run the test. true => check for missing steps
-//        , tags = ""
+        , tags = "@smoke"
 )
 public class CukesRunner {
 }

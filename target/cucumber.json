@@ -1,0 +1,577 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User should be on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1959000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-26T05:09:38.102Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify users can login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-app;verify-users-can-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 858000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 925000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid username \"helpdesk25@cybertekschool.com\" and password \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk25@cybertekschool.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 68
+                }
+              ],
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_enter_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the homepage",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_should_be_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should be on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1322000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-26T05:09:41.891Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify users can login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-app;verify-users-can-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 782000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 849000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid username \"helpdesk26@cybertekschool.com\" and password \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk26@cybertekschool.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 68
+                }
+              ],
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_enter_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the homepage",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_should_be_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should be on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1358000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-26T05:09:44.851Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify users can login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-app;verify-users-can-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 737000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 974000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid username \"hr25@cybertekschool.com\" and password \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr25@cybertekschool.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_enter_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the homepage",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_should_be_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should be on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1337000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-26T05:09:47.926Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify users can login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-app;verify-users-can-login;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 803000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 957000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid username \"hr26@cybertekschool.com\" and password \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr26@cybertekschool.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_enter_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the homepage",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_should_be_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should be on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1326000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-26T05:09:51.030Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify users can login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-app;verify-users-can-login;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 791000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 885000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid username \"marketing25@cybertekschool.com\" and password \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marketing25@cybertekschool.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 69
+                }
+              ],
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_enter_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the homepage",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_should_be_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should be on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1330000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-26T05:09:54.037Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify users can login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-app;verify-users-can-login;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 757000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextbase.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid username \"marketing26@cybertekschool.com\" and password \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marketing26@cybertekschool.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 69
+                }
+              ],
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_enter_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the homepage",
+            "match": {
+              "location": "com.nextbase.step_definitions.Login_StepDefs.i_should_be_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to login to the app",
+    "description": "",
+    "id": "as-a-user--i-should-be-able-to-login-to-the-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
