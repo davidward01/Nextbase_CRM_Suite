@@ -8,9 +8,12 @@ import org.openqa.selenium.support.PageFactory;
  * provides constructor with initElements method for re-usability
  * abstract - to prevent instantiation.
  */
-public  class BasePage {
+public abstract class BasePage {
 
     public BasePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
+
+    public abstract void getTitle();
+
 }
